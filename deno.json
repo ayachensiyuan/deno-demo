@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"lib": ["deno.window"],
+		"strict": true
+	},
+	"lint": {
+		"files": {
+			"include": ["./"],
+			"exclude": []
+		},
+		"rules": {
+			"tags": ["recommended"],
+			"include": ["ban-untagged-todo"],
+			"exclude": ["no-unused-vars"]
+		}
+	},
+	"test": {
+		"files": {
+			"include": ["demo2/"],
+			"exclude": []
+		}
+	},
+	"fmt": {
+		"files": {
+			"include": ["./"],
+			"exclude": []
+		},
+		"options": {
+			"singleQuote": true,
+			"useTabs": true,
+			"indentWidth": 2
+		}
+	}
+}
