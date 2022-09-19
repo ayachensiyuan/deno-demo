@@ -5,4 +5,4 @@ import { run } from './demo1/demo1.ts'
 const word = say('hello world')
 console.log(word)
 
-run()
+run();
